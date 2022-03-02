@@ -938,6 +938,11 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@ezraobiwale/laravel-style-validation@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ezraobiwale/laravel-style-validation/-/laravel-style-validation-1.0.0.tgz#432c0a8b100518986cbb7e7235bb4d17f6fc2f4b"
+  integrity sha512-uq80Pq6b4bhtpeQhiOahnBrItJSDkvqrUM3Q1xbqN1tqlPbqGlIaooNCoyEuXdQZV/rL8YmT7WVckKNP8Wix6A==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
