@@ -938,10 +938,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@ezraobiwale/laravel-style-validation@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ezraobiwale/laravel-style-validation/-/laravel-style-validation-1.0.0.tgz#432c0a8b100518986cbb7e7235bb4d17f6fc2f4b"
-  integrity sha512-uq80Pq6b4bhtpeQhiOahnBrItJSDkvqrUM3Q1xbqN1tqlPbqGlIaooNCoyEuXdQZV/rL8YmT7WVckKNP8Wix6A==
+"@ezraobiwale/laravel-style-validation@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@ezraobiwale/laravel-style-validation/-/laravel-style-validation-2.0.1.tgz#071a118c7063427983d62d2a8bb16cb6b5494e3e"
+  integrity sha512-+qseuEAHGDjfS3+AjHguq9lf/+Sp1Bz3KzzIRjArfKjlBAsQ5UEpxA/VlD4Nnymz9oIUPRUmT378d4ILMfSgmg==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"

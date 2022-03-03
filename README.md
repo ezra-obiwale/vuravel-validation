@@ -41,9 +41,11 @@ export default new Vue({
 
 // App.vue
 
-this.$validate(...)
-this.$validateData(...)
-this.$customRule(...)
+this.$lsv.asFunctionArray(...)
+this.$lsv.customRule(...)
+this.$lsv.rulesAsFunctionArray(...)
+this.$lsv.validate(...)
+this.$lsv.validateData(...)
 ```
 
 See [https://github.com/ezra-obiwale/laravel-style-validation#usage](https://github.com/ezra-obiwale/laravel-style-validation#usage) for more details.
@@ -79,6 +81,6 @@ const allowedOptions = (value, { data, field, message, params, rules }) => {
 app.use(VuravelValidation, { allowed_options: allowedOptions })
 
 // Usage
-this.$validate('yes', 'allowed_options:yes,no,maybe|accepted')
+this.$lsv.validate('yes', 'allowed_options:yes,no,maybe|accepted')
 
 ```

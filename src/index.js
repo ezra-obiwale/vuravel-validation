@@ -1,4 +1,4 @@
-import { customRule, validate, validateData } from "@ezraobiwale/laravel-style-validation"
+import lsv from "@ezraobiwale/laravel-style-validation"
 import { isObject } from "@ezraobiwale/laravel-style-validation/dist/utils"
 
 export default {
@@ -8,17 +8,13 @@ export default {
         }
 
         for (let name in customRules) {
-            customRule(name, customRules[name])
+            lsv.customRule(name, customRules[name])
         }
 
         if (app.config?.globalProperties) {
-            app.config.globalProperties.$customRule = customRule
-            app.config.globalProperties.$validate = validate
-            app.config.globalProperties.$validateData = validateData
+            app.config.globalProperties.$lsv = lsv
         } else {
-            app.$customRule = $customRule
-            app.$validate = validate
-            app.$validateData = validateData
+            app.$lsv = lsv
         }
     }
 }
