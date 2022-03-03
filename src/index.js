@@ -1,4 +1,4 @@
-import lsv from "@ezraobiwale/laravel-style-validation"
+import * as lsv from "@ezraobiwale/laravel-style-validation"
 import { isObject } from "@ezraobiwale/laravel-style-validation/dist/utils"
 
 export default {
