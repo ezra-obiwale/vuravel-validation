@@ -14,7 +14,7 @@ export default {
         if (app.config?.globalProperties) {
             app.config.globalProperties.$lsv = lsv
         } else {
-            app.$lsv = lsv
+            app.prototype.$lsv = lsv
         }
     }
 }
