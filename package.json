@@ -1,6 +1,6 @@
 {
   "name": "@ezraobiwale/vuravel-validation",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "Vue validations, the Laravel way",
   "main": "dist/index.js",
   "repository": "https://github.com/ezra-obiwale/vuravel-validation",
