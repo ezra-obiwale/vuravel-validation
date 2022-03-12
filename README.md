@@ -41,14 +41,13 @@ export default new Vue({
 
 // App.vue
 
-this.$lsv.asFunctionArray(...)
-this.$lsv.customRule(...)
-this.$lsv.rulesAsFunctionArray(...)
 this.$lsv.validate(...)
-this.$lsv.validateData(...)
+
 ```
 
-See [https://github.com/ezra-obiwale/laravel-style-validation#usage](https://github.com/ezra-obiwale/laravel-style-validation#usage) for more details.
+> All laravel-style-validation functions are available on `this.$lsv`
+
+See [https://github.com/ezra-obiwale/laravel-style-validation#usage](https://github.com/ezra-obiwale/laravel-style-validation#usage-guide) for more details.
 
 ### Custom rule example
 
