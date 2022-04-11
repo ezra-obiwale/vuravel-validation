@@ -931,9 +931,9 @@
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 "@ezraobiwale/laravel-style-validation@^3.0.0":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@ezraobiwale/laravel-style-validation/-/laravel-style-validation-3.0.1.tgz#14ce4aefbe62cc486ac565b4990e5e6d65dc9fc0"
-  integrity sha512-pfvpiWYA4HmHVxcI+LTEpLyqcsIUHDrGmzxOLg8cQqcW+G4kuASXe4fC4FIs8XSN4YMk+BkAW/HhtRQgF4spGg==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ezraobiwale/laravel-style-validation/-/laravel-style-validation-3.0.2.tgz#8346007c049435fbd9a30c1370fc01ca8ad5937f"
+  integrity sha512-tRR1RAZ0DlQORQC5uwM95Vpc+fhb1oqpJfw6M5fTHqf7eZaEzJOwuckB9OHtASD4fyCwstyonfUFxW0EYNMR3Q==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
