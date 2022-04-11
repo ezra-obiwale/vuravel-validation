@@ -54,6 +54,7 @@ See [https://github.com/ezra-obiwale/laravel-style-validation#usage](https://git
 Based on [this example](https://github.com/ezra-obiwale/laravel-style-validation#custom-rules):
 
 ```javascript
+// Create custom rule function
 const allowedOptions = (value, { data, field, message, params, rules }) => {
   const isValid = params.includes(value)
 
@@ -76,10 +77,10 @@ const allowedOptions = (value, { data, field, message, params, rules }) => {
   return 'Allowed parameters include ' + params.join(', ')
 }
 
-// Register
+// Register rule with library
 app.use(VuravelValidation, { allowed_options: allowedOptions })
 
-// Usage
+// Use
 this.$lsv.validate('yes', 'allowed_options:yes,no,maybe|accepted')
 
 ```

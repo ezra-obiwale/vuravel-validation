@@ -1,6 +1,6 @@
 {
   "name": "@ezraobiwale/vuravel-validation",
-  "version": "3.0.7",
+  "version": "3.1.0",
   "description": "Vue validations, the Laravel way",
   "main": "dist/index.js",
   "repository": "https://github.com/ezra-obiwale/vuravel-validation",
@@ -19,6 +19,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@ezraobiwale/laravel-style-validation": "^2.0.0"
+    "@ezraobiwale/laravel-style-validation": "^3.0.0"
   }
 }
