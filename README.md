@@ -7,9 +7,9 @@ This is a wrapper around [laravel-style-validation](https://npmjs.org/@ezraobiwa
 ## Installation
 
 ```javascript
-yarn add vuravel-validation
+yarn add @ezraobiwale/vuravel-validation
 // or
-npm install vuravel-validation
+npm install @ezraobiwale/vuravel-validation
 ```
 
 ## Usage
